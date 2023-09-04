@@ -6,9 +6,16 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		84266D862AA5954700992968 /* OneBitDitheredOrderPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84266D852AA5954700992968 /* OneBitDitheredOrderPlugin.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		84266D7A2AA5950E00992968 /* OneBitOrderedDither.acplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneBitOrderedDither.acplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		84266D7D2AA5950E00992968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84266D832AA5954700992968 /* ACPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPlugin.h; sourceTree = "<group>"; };
+		84266D842AA5954700992968 /* OneBitDitheredOrderPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneBitDitheredOrderPlugin.h; sourceTree = "<group>"; };
+		84266D852AA5954700992968 /* OneBitDitheredOrderPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneBitDitheredOrderPlugin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +48,9 @@
 		84266D7C2AA5950E00992968 /* OneBitOrderedDither */ = {
 			isa = PBXGroup;
 			children = (
+				84266D832AA5954700992968 /* ACPlugin.h */,
+				84266D842AA5954700992968 /* OneBitDitheredOrderPlugin.h */,
+				84266D852AA5954700992968 /* OneBitDitheredOrderPlugin.m */,
 				84266D7D2AA5950E00992968 /* Info.plist */,
 			);
 			path = OneBitOrderedDither;
@@ -113,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84266D862AA5954700992968 /* OneBitDitheredOrderPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
