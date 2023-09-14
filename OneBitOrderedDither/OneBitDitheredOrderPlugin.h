@@ -8,6 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 #import <QuartzCore/QuartzCore.h>
+// Added to fix the error "Definition of 'CIFilter' must be imported from module 'CoreImage.CIFilter' before it is required" in Xcode 14
+#import <CoreImage/CIFilter.h>
 
 #import "ACPlugin.h"
 
